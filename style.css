@@ -1,0 +1,789 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color:white;
+    overflow-x: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.maindiv{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50;
+    transform: translate(-50%);
+    background-image: url(Anapurna.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 15s infinite linear;
+
+}
+
+@keyframes slider{
+    0%{background-image: url(Everesttt.jpg);}
+    35%{background-image: url(pro3.jpeg);}
+    75%{background-image: url(./Visit/Lake.jpg);}
+}
+
+.Container{
+    
+    background-color: black;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+ul{
+    flex-direction: row;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    position: relative;
+    left: -2rem;
+}
+li{
+    list-style: none;
+   font-size:larger;
+   margin-top: 10px;
+   
+   
+}
+a{
+    color: aliceblue;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    top:0.3rem;
+    cursor: pointer;
+}
+h1{
+    left: 9rem;
+    top: 0.5rem;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+}
+input{
+    padding: 15px 10px;
+    height: 2rem;
+    position: relative;
+    left: -1.4rem;
+    top: 0.7rem;
+    background-color:white;
+    border: none;
+    width: 23rem;
+    border-radius: 6px;
+}
+  
+button {
+    /* padding: 3px 5px; */
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    top: 0.7rem;
+    left: -5rem;
+    border-radius: 4px;
+    position: relative;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+  }
+
+
+ 
+ 
+ 
+
+.Container img{
+    left: -17.5rem;
+    top: -1.7rem;
+    height: 13vh;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+
+                                                    /* box-3 */
+
+
+
+
+.container3{
+    position: relative;
+    top: 60rem;
+    left: 5rem;
+}
+
+.container3 h1{
+    font-size: 5rem;
+    line-height: 1.4;
+    letter-spacing: 0.1rem;
+    font-family:'Times New Roman', Times, serif;
+    width: 60%;
+    text-shadow:10px 5px 10px white;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    top: -25rem;
+    left: 12rem;
+}
+
+.container3 ol li{
+    font-size: 2rem;
+    position: relative;
+    left: 9rem;
+    top: -24rem;
+}
+/* .container3 h3{
+    left: 10rem;
+    top: -28rem;
+    font-size: 3rem;
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+.container3 ol li a{
+    color: black;
+}
+
+.container3 ol li a:hover{
+    color: rgb(255, 5, 5);
+}
+
+
+                                                                      /* box-5 */
+
+.maincontainer{
+    top: 60rem;
+    position: relative;
+}
+
+
+
+.maincontainer h1{
+font-size: 4rem;
+top: -18rem;
+left: 25rem;
+line-height: 1.4;
+color: black;
+    letter-spacing: 0.2rem;
+    font-family:'Times New Roman', Times, serif;
+    width: 60%;
+    text-shadow:10px 5px 10px white;
+
+}
+
+
+
+
+.image1{
+    background-color: black;
+    width: 27%;
+    height: 25rem;
+    position: relative;
+    top: -14rem;
+    left: 4rem;
+    box-shadow:10px 5px 10px white;
+}
+
+
+.image1 img{
+    width: 100%;
+    height: 21rem;
+    left: 0rem;
+    top: 0rem;
+    position: relative;
+    /* border-radius: 15px; */
+   
+}
+.image1 h3{
+    top: 0.5rem;
+    left: 9rem;
+    color: white;
+    position:relative;
+    font-size: 2rem;
+}
+
+.image1 h3 a:hover{
+    color: red;
+}
+
+.image2{
+    background-color: black;
+    width: 27%;
+    height: 25rem;
+    position: relative;
+    top: -39rem;
+    left: 33rem;
+    box-shadow:10px 5px 10px white;
+}
+.image2 img{
+    width: 100%;
+    height: 20rem;
+    left: 0rem;
+    top: 0rem;
+    position: relative;
+    /* border-radius: 15px; */
+}
+.image2 h3{
+    top: 0.5rem;
+    left: 9rem;
+    color: white;
+    position:relative;
+    font-size: 2rem;
+}
+
+.image2 h3 a:hover{
+    color: red;
+}
+
+
+
+.image3{
+    background-color: black;
+    width: 27%;
+    height: 25rem;
+    position: relative;
+    top: -64rem;
+    left: 63rem;
+    box-shadow:10px 5px 10px white;
+}
+.image3 img{
+    width: 100%;
+    height: 20rem;
+    left: 0rem;
+    top: 0rem;
+    position: relative;
+}
+.image3 h3{
+    top: 0.5rem;
+    left: 9rem;
+    color: white;
+    position:relative;
+    font-size: 2rem;
+}
+
+.image3 h3 a:hover{
+    color: red;
+}
+
+.image4{
+    background-color: black;
+    width: 27%;
+    height: 25rem;
+    position: relative;
+    top: -57rem;
+    left: 50rem;
+    box-shadow:10px 5px 10px white;
+}
+
+
+.image4 img{
+    width: 100%;
+    height: 20rem;
+    left: 0rem;
+    top: 0rem;
+    position: relative;
+}
+.image4 h3{
+    top: 0.5rem;
+    left: 9rem;
+    color: white;
+    position:relative;
+    font-size: 2rem;
+}
+
+.image4 h3 a:hover{
+    color: red;
+}
+
+.image5{
+    background-color: black;
+    width: 27%;
+    height: 25rem;
+    position: relative;
+    top: -82rem;
+    left: 20rem;
+    box-shadow:10px 5px 10px white;
+}
+
+
+.image5 img{
+    width: 100%;
+    height: 20rem;
+    left: 0rem;
+    top: 0rem;
+    position: relative;
+}
+.image5 h3{
+    top: 0.5rem;
+    left: 9rem;
+    color: white;
+    position:relative;
+    font-size: 2rem;
+}
+
+.image5 h3 a:hover{
+    color: red;
+}
+
+
+
+
+                                                      /* New Box Started */
+
+                                          /* Pokhra */
+
+.container4{
+    top: 15rem;
+    position: relative;
+}
+
+
+.container4 img{
+    width: 60%;
+    top: -27rem;
+    height: 30rem;
+    left: 20rem;
+    position: relative;
+    border-radius: 35px;
+    box-shadow:10px 10px 10px black;
+    
+}
+.container4 h1{
+    font-size: 3rem;
+    line-height: 1.4;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: -30rem;
+    left: -30rem;
+    text-shadow:10px 5px 10px black;
+}
+
+.container4 h1 a{
+    color: black;
+}
+
+.container4 h1 a:hover{
+    color: red;
+}
+
+
+
+
+.container4 p{
+    top: -30rem;
+    left: 15rem;
+    position: relative;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 80%;
+    color:black;
+}
+.container4 h5{
+    color: black;
+    font-size: 1.5rem;
+    top: 39rem;
+    left: 42rem;
+    position: relative;
+}
+
+
+                                         /* Kathmandu */
+
+
+.link{
+    top: 110rem;
+    position: relative;
+}
+
+
+.linked1 {
+top: -15rem;
+position: relative;
+}                                         
+.linked1 h1{
+top: -98rem;
+left: 9rem;
+color: black;
+font-size: 3rem;
+line-height: 1.4;
+letter-spacing: 0.2rem;
+text-shadow:10px 5px 10px black;
+}
+.linked1 img{
+top: -45rem;
+left: 20rem;
+position: relative;
+width: 60%;
+height: 30rem;
+border-radius: 35px;
+box-shadow:10px 10px 10px black;
+}
+
+.linked1 p{
+top: -128rem;
+position: relative;
+align-items: center;
+font-size: 1.5rem;
+width: 80%;
+left: 13rem;
+color:black;
+}
+
+.linked1 h1 a{
+    color: black;
+}
+
+.linked1 h1 a:hover{
+    color: red;
+}
+
+.linked1 h5{
+    color: black;
+    font-size: 1.5rem;
+    top: -11rem;
+    left: 42rem;
+    z-index: 99;
+    position: relative;
+}
+
+
+                                                    /*  Everest  */
+
+.linked2{
+top: -12rem;
+position: relative;
+}                                                    
+
+.linked2 img{
+top: -43rem;
+left:20rem;
+width: 60%;
+height: 35rem;
+position: relative;
+border-radius: 35px;
+box-shadow:10px 10px 10px black;
+}
+.linked2 h1{
+top: -90rem;
+left: 9rem;
+color: black;
+font-size: 3rem;
+line-height: 1.4;
+letter-spacing: 0.2rem;
+text-shadow:10px 5px 10px black;
+}
+
+.linked2 h1 a{
+    color: black;
+}
+
+.linked2 h1 a:hover{
+    color: red;
+}
+
+.linked2 p{
+    top: -125rem;
+    position: relative;
+    align-items: center;
+font-size: 1.5rem;
+width: 80%;
+left: 13rem;
+color:black;
+     
+}
+
+.linked2 h5{
+    color: black;
+    font-size: 1.5rem;
+    top: -5rem;
+    z-index: 99;
+    left: 42rem;
+    position: relative;
+}
+
+
+
+                                             /* Lumbini */
+
+.linked3{
+top: -15rem;
+position: relative;
+}
+.linked3 img{
+    top: -36rem;
+    left: 20rem;
+    width: 60%;
+    height: 30rem;
+    position: relative;
+    border-radius: 35px;
+    box-shadow:10px 10px 10px black;
+}
+.linked3 h1{
+    top: -80rem;
+    color: black;
+    left: 8rem;
+    font-size: 3rem;
+line-height: 1.4;
+letter-spacing: 0.2rem;
+text-shadow:10px 5px 10px black;
+}
+
+.linked3 h1 a{
+    color: black;
+}
+
+.linked3 h1 a:hover{
+    color: red;
+}
+.linked3 p{
+    top: -110rem;
+    left: 13rem;
+    position: relative;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 80%;
+    color:black;
+}
+
+.linked3 h5{
+    color: black;
+    font-size: 1.5rem;
+    top: -2rem;
+    left: 42rem;
+    position: relative;
+}
+
+                                                           /* Chitwan */
+
+
+.linked4{
+top: -14rem;
+position: relative;
+}
+.linked4 img{
+top: -28rem;
+left: 20rem;
+width: 60%;
+height: 30rem;
+position: relative;
+border-radius: 35px;
+box-shadow:10px 10px 10px black;
+}
+.linked4 h1{
+    color: black;
+top: -72rem;
+left: 8rem;
+font-size: 3rem;
+line-height: 1.4;
+letter-spacing: 0.2rem;
+text-shadow:10px 5px 10px black;
+}
+
+.linked4 h1 a{
+    color: black;
+}
+
+.linked4 h1 a:hover{
+    color: red;
+}
+
+.linked4 p{
+top: -102rem;
+left: 13rem;
+position: relative;
+align-items: center;
+font-size: 1.5rem;
+width: 80%;
+color:black;
+}
+
+.linked4 h5{
+    color: black;
+    font-size: 1.5rem;
+    top: 6rem;
+    left: 42rem;
+    position: relative;
+}
+                                                      /* Night Life */
+
+.linked5{
+top: -5rem;
+position: relative;
+}
+
+.linked5 img{
+top: -40rem;
+left: 20rem;
+height: 30rem;
+width: 60%;
+position: relative;
+border-radius: 35px;
+box-shadow:10px 10px 10px black;
+}
+.linked5 h1{
+    color: black;
+top: -70rem;
+left: 8rem;
+font-size: 3rem;
+line-height: 1.4;
+letter-spacing: 0.2rem;
+text-shadow:10px 5px 10px black;
+}
+
+.linked5 p{
+top: -100rem;
+left: 13rem;
+position: relative;
+width: 80%;
+align-items: center;
+font-size: 1.5rem;
+color: black;
+}
+
+.linked5 h5{
+    color: black;
+    font-size: 1.5rem;
+    z-index: 99;
+    top: -6rem;
+    left: 42rem;
+    position: relative;
+}
+
+
+
+
+
+
+                              /* Footer */
+
+
+.contain{
+  max-width: 1170px;
+  margin: auto;
+
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+  height: 25rem;
+  left: 1rem;
+  margin-top: 90rem;
+  position: relative;
+}
+
+.footer-col{
+width: 25%;
+padding: 0 15px;
+left: -3rem;
+position: relative;
+}
+.footer-col h4{
+  font-size: 18px;
+  left: 4rem;
+  position: relative;
+  top: 1rem;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+
+.follow{
+    margin-left: -2rem;
+}
+
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 55px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbbbb;
+display: block;
+transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+color: #24262b;  
+background-color: #ffffff;
+}
+
+/* REsponsive */
+
+@media(max-width:767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:574px){
+  .footer-col{
+    width: 100%;
+  }
+} 
