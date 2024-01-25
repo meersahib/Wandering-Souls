@@ -29,7 +29,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-ol{
+ul{
     flex-direction: row;
     display: flex;
     gap: 3rem;
@@ -46,7 +46,7 @@ color: white;
 position: relative;
 left: 10rem;
 }
-.navbar ol li a{
+.navbar ul li a{
     color: white;
     display: flex;
     justify-content: space-between;
@@ -79,7 +79,7 @@ button {
     width: 4rem;
     height: 2rem;
     top: 0rem;
-    left: -13rem;
+    left: -13.7rem;
     border-radius: 5px;
     position: relative;
     background-color: white;

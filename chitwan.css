@@ -38,7 +38,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-ol{
+ul{
     flex-direction: row;
     display: flex;
     gap: 3rem;
@@ -50,12 +50,14 @@ li{
   left: -14rem;
   position: relative;
 }
+
 .navbar h1{
 color: white;
 position: relative;
-left: 7rem;
+left: 8rem;
 }
-.navbar ol li a{
+
+.navbar ul li a{
     color: white;
     display: flex;
     justify-content: space-between;
@@ -76,7 +78,7 @@ input{
     padding: 15px 10px;
     height: 2rem;
     position: relative;
-    left: -3rem;
+    left: -2.2rem;
     top: -0.2rem;
     background-color:white;
     border: none;
